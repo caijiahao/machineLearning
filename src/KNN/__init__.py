@@ -1,0 +1,2 @@
+import knn  
+knn.testHandWritingClass()  
