@@ -76,33 +76,34 @@ def stocGradAscent1(dataMatrix,classLabels,numIter = 4000):
 def classifyVector(inX, weights):
     prob = sigmoid(sum(inX * weights))
     if prob > 0.5:
-        return 1.0
+        return 2
     else:
-        return 0.0
+        return 4
 
 
 def colicTest():
-    frTrain = open('horseColicTraining.txt');
-    frTest = open('horseColicTest.txt')
+    frTrain = open('breast-cancer-wisconsin.txt');
+    frTest = open('test.txt')
     trainingSet = [];
     trainingLabels = []
     for line in frTrain.readlines():
-        currLine = line.strip().split('\t')
+        currLine = line.strip().split(',')
         lineArr = []
-        for i in range(21):
+        for i in range(1,10):
+            #print currLine[10]
             lineArr.append(float(currLine[i]))
         trainingSet.append(lineArr)
-        trainingLabels.append(float(currLine[21]))
-    trainWeights = stocGradAscent1(array(trainingSet), trainingLabels, 4000)
+        trainingLabels.append(float(currLine[10]))
+    trainWeights = stocGradAscent1(array(trainingSet), trainingLabels, 500)
     errorCount = 0;
     numTestVec = 0.0
     for line in frTest.readlines():
         numTestVec += 1.0
-        currLine = line.strip().split('\t')
+        currLine = line.strip().split(',')
         lineArr = []
-        for i in range(21):
+        for i in range(1,10):
             lineArr.append(float(currLine[i]))
-        if int(classifyVector(array(lineArr), trainWeights)) != int(currLine[21]):
+        if int(classifyVector(array(lineArr), trainWeights)) != int(currLine[10]):
             errorCount += 1
     errorRate = (float(errorCount) / numTestVec)
     print "the error rate of this test is: %f" % errorRate
@@ -128,6 +129,7 @@ multiTest()
 #dataArr,labelMat  = loadDataSet();
 #weights = stocGradAscent1(array(dataArr),labelMat)
 #plotBestFit(weights)
+
 
 
 
