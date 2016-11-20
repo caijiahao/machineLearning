@@ -139,6 +139,15 @@ def createForeCast(tree, testData, modelEval=regTreeEval):
         yHat[i,0] = treeForeCast(tree, mat(testData[i]), modelEval)
     return yHat
 
-myDat = loadDataSet('ex00.txt')
+myDat = loadDataSet('exp2.txt')
 myMat = mat(myDat)
-print createTree(myMat)
+myTree = createTree(myMat,modelLeaf,modelErr,(0,10))
+print myTree
+#myDatTest = loadDataSet('ex2test.txt')
+#myMat2Test=mat(myDatTest)
+#print prune(myTree,myMat2Test)
+
+
+
+
+
