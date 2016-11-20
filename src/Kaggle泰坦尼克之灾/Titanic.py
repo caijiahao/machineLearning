@@ -14,4 +14,5 @@ from pandas import Series,DataFrame
 
 data_train = pd.read_csv("train.csv")
 print  data_train.describe()
+#数据集信息
 data_train.info()
