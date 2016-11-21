@@ -132,7 +132,7 @@ df.plot(kind='bar', stacked=True)
 plt.title(u"按Cabin有无看获救情况")
 plt.xlabel(u"Cabin有无")
 plt.ylabel(u"人数")
-#plt.show()
+plt.show()
 
 from sklearn.ensemble import RandomForestRegressor
 
