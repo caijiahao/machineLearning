@@ -64,6 +64,84 @@ for index in range(4):
     premise,conclusion = sorted_support[index][0]
     print_rule(premise, conclusion, support, confidence, features)
 
+#导入Iris植物数据集
+from sklearn.datasets import load_iris
+dataset = load_iris()
+x = dataset.data
+y =dataset.target
+#print dataset.DESCR
+
+#将数值型数据转为离散化
+attribute_means = x.mean(axis=0)
+x_d = np.array(x>=attribute_means,dtype='int')
+
+#根据待测数据的某项特征值预测类别并给出错误率
+from collections import defaultdict
+from operator import itemgetter
+
+def train_feature_value(x,y_true,feature_index,value):
+    class_counts = defaultdict(int)
+    for sample,y in zip(x,y_true):
+        if sample[feature_index] == value:
+            class_counts[y] += 1
+    sorted_class_counts = sorted(class_counts.items(),key=itemgetter(1),reverse=True)
+    most_frequent_class = sorted_class_counts[0][0]
+
+    #计算该条规则的错误率
+    incorrect_predictions = [class_count for class_value,class_count
+    in class_counts.items()
+    if class_value  != most_frequent_class]
+    error = sum(incorrect_predictions)
+    return most_frequent_class,error
+
+#找出每个特征值最可能的类别，并计算错误率
+def train_on_feature(x,y_true,feature_index):
+    values = set(x[:,feature_index])
+    predictors = {}
+    errors = []
+    for current_value in values:
+        most_frequent_class, error = train_feature_value(x,y_true,feature_index,current_value)
+        predictors[current_value] = most_frequent_class
+        errors.append(error)
+    total_error = sum(errors)
+    return predictors,total_error
+
+#sciket-learning将数据库分为训练集和测试集的函数
+from sklearn.cross_validation import train_test_split
+Xd_train,Xd_test,y_train,y_test = train_test_split(x_d,y,random_state=None)
+
+#找出错误率最低的特征，作为分类的唯一规则
+all_predictors = {}
+errors = {}
+for feature_index in range(Xd_train.shape[1]):
+    predictors,total_error = train_on_feature(Xd_train,y_train,feature_index)
+    all_predictors[feature_index] = predictors
+    errors[feature_index] = total_error
+    best_feature,best_error = sorted(errors.items(),key=itemgetter(1))[0]
+
+#对预测器进行排序，找到最佳特征值，创建model模型
+model = {'feature':best_feature,'predictor': all_predictors[best_feature]}
+
+def predict(X_test,model):
+    print model
+    variable = model['feature']
+    predictor = model['predictor']
+    y_predicted = np.array([predictor[int(sample[variable])] for sample in X_test])
+    return y_predicted
+
+y_predicted = predict(Xd_test,model)
+accuracy = np.mean(y_predicted == y_test) *100
+#print accuracy
+print "The test accuracy is {:.1f}%".format(accuracy)
+
+
+
+
+
+
+
+
+
 
 
 
