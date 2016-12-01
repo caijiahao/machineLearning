@@ -46,3 +46,29 @@ average_accuracy = np.mean(scores) *100
 #print "The test average_accuracy is {:.1f}%".format(average_accuracy)
 
 #测试一下一系列n_neighbors的效果
+avg_scorces = []
+all_scorces = []
+parameter_values = list(range(1,21))
+for n_neighbors in parameter_values:
+    estimator = KNeighborsClassifier(n_neighbors=n_neighbors)
+    scores = cross_val_score(estimator,x,y,scoring='accuracy')
+    avg_scorces.append(np.mean(scores))
+    all_scorces.append(scores)
+
+#用matplotlib来看图
+from matplotlib import pyplot as plt
+plt.plot(parameter_values,avg_scorces,'-o')
+#plt.show()
+
+#标准预处理
+from sklearn.preprocessing import MinMaxScaler
+X_transformed = MinMaxScaler().fit_transform(x)
+estimator = KNeighborsClassifier()
+transformed_scores = cross_val_score(estimator,X_transformed,y,scoring='accuracy')
+#print "The test average_accuracy is {:.1f}%".format(np.mean(transformed_scores) * 100)
+
+#创建流水线
+from sklearn.pipeline import  Pipeline
+scaling_pipeline = Pipeline([('scale',MinMaxScaler()),('predict',KNeighborsClassifier())])
+scores = cross_val_score(scaling_pipeline, X_transformed, y, scoring='accuracy')
+print "The test average_accuracy is {:.1f}%".format(np.mean(scores) * 100)
