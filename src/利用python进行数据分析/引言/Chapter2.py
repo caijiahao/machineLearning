@@ -50,7 +50,8 @@ counts = Counter(time_zones)
 
 #用panda对时区进行统计
 from pandas import DataFrame,Series
-import pandas as pd;import numpy as np
+import pandas as pd
+import numpy as np
 frame = DataFrame(records)
 #print frame
 
