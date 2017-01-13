@@ -32,7 +32,7 @@ print df
 data = df.as_matrix() #将表格转换为矩阵
 shuffle(data) #随机打乱数据
 
-p = 0.8 #设置训练数据比例
+p = 0.7 #设置训练数据比例
 train = data[:int(len(data)*p),:] #前80%为训练集
 test = data[int(len(data)*p):,:] #后20%为测试集
 
