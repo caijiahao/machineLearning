@@ -11,6 +11,8 @@ from random import shuffle #导入随机函数shuffle，用来打算数据
 import matplotlib.pyplot as plt
 
 inputfile = 'surronding.xls' #数据文件
+outputfile1 = 'cm_train.xls' #训练样本混淆矩阵保存路径
+outputfile2 = 'cm_test.xls' #测试样本混淆矩阵保存路径
 data = pd.read_excel(inputfile) #读取数据，指定编码为gbk
 
 #data[u'空气等级'][data[u'空气等级'] == u'I'] = 1
@@ -38,18 +40,12 @@ tree.fit(train[:,:6], train[:,6]) #训练
 from sklearn.externals import joblib
 joblib.dump(tree, treefile)
 
-from cm_plot import * #导入自行编写的混淆矩阵可视化函数
-cm_plot(test[:,6], tree.predict(test[:,:6])).show() #显示混淆矩阵可视化结果
-#注意到Scikit-Learn使用predict方法直接给出预测结果。
+#导入输出相关的库，生成混淆矩阵
+from sklearn import metrics
+cm_train = metrics.confusion_matrix(train[:,6], tree.predict(train[:,:6])) #训练样本的混淆矩阵
+cm_test = metrics.confusion_matrix(test[:,6], tree.predict(test[:,:6])) #测试样本的混淆矩阵
 
+#保存结果
+pd.DataFrame(cm_train, index = range(1, 7), columns = range(1, 7)).to_excel(outputfile1)
+pd.DataFrame(cm_test, index = range(1, 7), columns = range(1, 7)).to_excel(outputfile2)
 
-from sklearn.metrics import roc_curve #导入ROC曲线函数
-
-fpr, tpr, thresholds = roc_curve(test[:,6], tree.predict_proba(test[:,:6])[:,1], pos_label=1)
-plt.plot(fpr, tpr, linewidth=2, label = 'ROC of CART', color = 'green') #作出ROC曲线
-plt.xlabel('False Positive Rate') #坐标轴标签
-plt.ylabel('True Positive Rate') #坐标轴标签
-plt.ylim(0,1.05) #边界范围
-plt.xlim(0,1.05) #边界范围
-plt.legend(loc=4) #图例
-plt.show() #显示作图结果
