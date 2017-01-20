@@ -14,27 +14,40 @@ from random import shuffle #导入随机函数shuffle，用来打算数据
 
 import pandas as pd
 zaima ='zaima.xlsx'
+test='test.xlsx'
+outputfile = 'result.xls'
 data = pd.read_excel(zaima,header=None)
-print data
-print data.corr()[12]
+data_test = pd.read_excel(test,header=None)
+
+test_feature=[3,5,6]
+data_test = data_test[test_feature]
+result = data_test
+#data_test['pred'] = 0
+
+data_test_mean = data_test.mean()
+data_test_std = data_test.std()
+data_test = (data_test-data_test_mean)/data_test_std
+data_test = data_test.as_matrix()
 
 
 
-feature = [1,3,4, 5,6,7,8,9,10,11,12] #特征所在列
+
+feature = [3,5,6,12] #特征所在列
+
 data = data[feature]
 data_mean = data.mean()
 data_std = data.std()
 data = (data - data_mean)/data_std #数据标准化
 data = data.as_matrix()
 shuffle(data) #随机打乱数据
-print data
+#print data
 
 def netBuild(ds):
     # 建立神经网络fnn
     fnn = FeedForwardNetwork()
 
     # 设立三层，一层输入层（3个神经元，别名为inLayer），一层隐藏层，一层输出层
-    inLayer = LinearLayer(10, name='inLayer')
+    inLayer = LinearLayer(3, name='inLayer')
     hiddenLayer = SigmoidLayer(24, name='hiddenLayer0')
     outLayer = LinearLayer(1, name='outLayer')
 
@@ -63,17 +76,20 @@ def netBuild(ds):
     return fnn
 
 def dsBuild(data):
-    ds = SupervisedDataSet(10, 1)
+    ds = SupervisedDataSet(3, 1)
     for ele in data:
-        ds.addSample((ele[0],ele[1],ele[2],ele[3],ele[4],ele[5],ele[6],ele[7],ele[8],ele[9]), (ele[10]))
+        ds.addSample((ele[0],ele[1],ele[2]), (ele[3]))
     dsTrain,dsTest = ds.splitWithProportion(0.8)
     return dsTrain,dsTest
 
 dsTrain,dsTest = dsBuild(data)
 netModel = netBuild(dsTrain)
 pred=[]
+test = []
 really =[]
 sum = 0
+
+
 for i in range(0,len(dsTest['input'])):
    print dsTest['target'][i]
    if(dsTest['target'][i]>0):
@@ -81,13 +97,26 @@ for i in range(0,len(dsTest['input'])):
    else:
        really.append(0)
    prediction = netModel.activate(
-       (dsTest['input'][i][0], dsTest['input'][i][1], dsTest['input'][i][2], dsTest['input'][i][3],dsTest['input'][i][4],dsTest['input'][i][5],dsTest['input'][i][6],dsTest['input'][i][7],dsTest['input'][i][8],dsTest['input'][i][9]))
+       (dsTest['input'][i][0], dsTest['input'][i][1], dsTest['input'][i][2]))
    print prediction
 
    if(prediction>0):
        pred.append(1)
    else :
        pred.append(0)
+
+for i in range(0,457):
+    prediction = netModel.activate((data_test[i][0],data_test[i][1],data_test[i][2]))
+    if prediction>0:
+        sum+=1
+        test.append(1)
+    else:
+        test.append(0)
+
+print sum
+result['pred'] = test
+result.to_excel(outputfile)
+#print result
 
 from cm_plot import * #导入自行编写的混淆矩阵可视化函数
 cm_plot(really, pred).show() #显示混淆矩阵可视化结果
