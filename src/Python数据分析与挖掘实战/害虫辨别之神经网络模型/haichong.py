@@ -13,15 +13,16 @@ from pybrain.supervised.trainers import BackpropTrainer
 from random import shuffle #导入随机函数shuffle，用来打算数据
 
 import pandas as pd
-zaima ='zaima.xlsx'
+import numpy as np
+zaima ='train1.xlsx'
 test='test.xlsx'
 outputfile = 'result.xls'
 data = pd.read_excel(zaima,header=None)
 data_test = pd.read_excel(test,header=None)
 
-test_feature=[3,5,6]
+test_feature=[3,5,6,7]
 data_test = data_test[test_feature]
-result = data_test
+test_really = data_test[7]
 #data_test['pred'] = 0
 
 data_test_mean = data_test.mean()
@@ -32,7 +33,8 @@ data_test = data_test.as_matrix()
 
 
 
-feature = [3,5,6,12] #特征所在列
+
+feature = [3,5,6,7] #特征所在列
 
 data = data[feature]
 data_mean = data.mean()
@@ -48,7 +50,7 @@ def netBuild(ds):
 
     # 设立三层，一层输入层（3个神经元，别名为inLayer），一层隐藏层，一层输出层
     inLayer = LinearLayer(3, name='inLayer')
-    hiddenLayer = SigmoidLayer(24, name='hiddenLayer0')
+    hiddenLayer = SigmoidLayer(36, name='hiddenLayer0')
     outLayer = LinearLayer(1, name='outLayer')
 
     # 将三层都加入神经网络（即加入神经元）
@@ -105,7 +107,7 @@ for i in range(0,len(dsTest['input'])):
    else :
        pred.append(0)
 
-for i in range(0,457):
+for i in range(0,len(data_test)):
     prediction = netModel.activate((data_test[i][0],data_test[i][1],data_test[i][2]))
     if prediction>0:
         sum+=1
@@ -114,8 +116,6 @@ for i in range(0,457):
         test.append(0)
 
 print sum
-result['pred'] = test
-result.to_excel(outputfile)
 #print result
 
 from cm_plot import * #导入自行编写的混淆矩阵可视化函数
