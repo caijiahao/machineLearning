@@ -12,10 +12,17 @@
 import pandas as pd #导入数据分析库Pandas
 from scipy.interpolate import lagrange #导入拉格朗日插值函数
 
-inputfile = 'demo1.csv' #销量数据路径
-outputfile = 'demo1.xlsx' #输出数据路径
+inputfile = 'Octorber.xlsx' #销量数据路径
+outputfile = 'Octorber.xlsx' #输出数据路径
 
-data = pd.read_csv(inputfile) #读入数据
+data = pd.read_excel(inputfile) #读入数据
+
+data_test = data[[1,2,3,4,5,6,7,8]]
+data_test_mean = data.mean()
+data_test_std = data.std()
+data_test = (data_test-data_test_mean)/data_test_std
+
+print data_test.corr()[8]
 
 #自定义列向量插值函数
 #s为列向量，n为被插值的位置，k为取前后的数据个数，默认为5
@@ -30,5 +37,5 @@ for i in data.columns:
     if (data[i].isnull())[j]: #如果为空即插值。
       data[i][j] = ployinterp_column(data[i], j)
 
-data.to_csv(outputfile)
-#data.to_excel(outputfile) #输出结果，写入文件
+#data.to_csv(outputfile)
+data.to_excel(outputfile) #输出结果，写入文件
