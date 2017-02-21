@@ -79,8 +79,13 @@ really =[]
 
 for i in range(0,len(dsTest['input'])):
     really.append((dsTest['target'][i]*94+84).round(0))
-    pred.append((netModel.activate(
-       (dsTest['input'][i][0], dsTest['input'][i][1],dsTest['input'][i][2],dsTest['input'][i][3],dsTest['input'][i][4]))*94+84).round(0))
+    if((netModel.activate((dsTest['input'][i][0], dsTest['input'][i][1],dsTest['input'][i][2],dsTest['input'][i][3],dsTest['input'][i][4]))*94+84).round(0)>0):
+        pred.append((netModel.activate(
+              (dsTest['input'][i][0], dsTest['input'][i][1],dsTest['input'][i][2],dsTest['input'][i][3],dsTest['input'][i][4]))*94+84).round(0))
+    else:
+        pred.append(-1*(netModel.activate(
+             (dsTest['input'][i][0], dsTest['input'][i][1], dsTest['input'][i][2], dsTest['input'][i][3],
+             dsTest['input'][i][4])) * 94 + 84).round(0))
 
 
 print really
