@@ -18,10 +18,13 @@ haichong='haichong-test.xlsx'
 outputfile = 'result.xls'
 
 data = pd.read_excel(haichong,header=None)
-print data.describe()
+#print data.describe()
 
 #选择我所需要的数据列
-feature=[1,5,6,11,12,13]
+feature=[1,5,6,11,12]
+y = [13]
+
+y=data[y]
 data = data[feature]
 
 data_mean = data.mean()
@@ -29,6 +32,8 @@ data_mean = data.mean()
 data_std = data.std()
 
 data = (data - data_mean)/data_std #数据标准化
+data[13]= y
+
 data = data.as_matrix()
 shuffle(data) #随机打乱数据
 
@@ -59,7 +64,7 @@ def netBuild(ds):
     fnn.sortModules()
 
     print "Trainging"
-    trainer = BackpropTrainer(fnn, ds, verbose=True, learningrate=0.01)
+    trainer = BackpropTrainer(fnn, ds, verbose=True, learningrate=0.04)
     # trainer.train()
     trainer.trainEpochs(epochs=20)
     trainer.trainUntilConvergence(maxEpochs=10000)
@@ -74,31 +79,51 @@ def dsBuild(data):
     return dsTrain,dsTest
 
 def classDsBuild(data):
-    DS = ClassificationDataSet(5,nb_classes=5,class_labels=['1', '2', '3','4','5'])
+    DS = ClassificationDataSet(5,nb_classes=5)
     for ele in data:
         DS.appendLinked((ele[0],ele[1],ele[2],ele[3],ele[4]), (ele[5]))
-    dsTrain,dsTest = DS.splitWithProportion(0.9)
+    dsTrain,dsTest = DS.splitWithProportion(0.8)
     return dsTrain, dsTest
 
 dsTrain_test,dsTest_test= classDsBuild(data)
 dsTrain_test._convertToOneOfMany(bounds=[0, 1])
 dsTest_test._convertToOneOfMany(bounds=[0, 1])
 
-print dsTrain_test['input'][0]
+print dsTrain_test['target']
 
 dsTrain,dsTest = dsBuild(data)
 netModel = netBuild(dsTrain_test)
 pred=[]
 really =[]
+yuanma = []
+calma = []
 
 for i in range(0,len(dsTest_test['input'])):
-    really.append(dsTest_test['target'][i])
-    pred.append(netModel.activate(dsTest_test['input'][i]))
+
+    origin = dsTest_test['target'][i]
+    prediction = netModel.activate(dsTest_test['input'][i])
+    max = prediction[0]
+    index = 0
+
+    for j in range(0,5):
+        if origin[j] == 1:
+            really.append(j)
+            break
+    for k in range(1,5):
+        if prediction[k] > max:
+            max = prediction[k]
+            index = k
+    pred.append(index)
+
+    yuanma.append(dsTest_test['target'][i])
+    calma.append(netModel.activate(dsTest_test['input'][i]))
 
 
 
 print really
 print pred
+#print yuanma
+#print calma
 
 
 
