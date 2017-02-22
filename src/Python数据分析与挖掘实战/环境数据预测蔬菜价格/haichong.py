@@ -9,6 +9,7 @@
 import matplotlib.pyplot as plt
 from pybrain.tools.shortcuts import *;
 from pybrain.datasets import SupervisedDataSet
+from pybrain.datasets import ClassificationDataSet
 from pybrain.supervised.trainers import BackpropTrainer
 from random import shuffle #导入随机函数shuffle，用来打算数据
 
@@ -24,9 +25,9 @@ feature=[1,5,6,11,12,13]
 data = data[feature]
 
 data_mean = data.mean()
-print data_mean
+
 data_std = data.std()
-print data_std
+
 data = (data - data_mean)/data_std #数据标准化
 data = data.as_matrix()
 shuffle(data) #随机打乱数据
@@ -39,7 +40,7 @@ def netBuild(ds):
     # 设立三层，一层输入层（4个神经元，别名为inLayer），一层隐藏层，一层输出层
     inLayer = LinearLayer(5, name='inLayer')
     hiddenLayer = SigmoidLayer(100, name='hiddenLayer0')
-    outLayer = LinearLayer(1, name='outLayer')
+    outLayer = LinearLayer(5, name='outLayer')
 
     # 将三层都加入神经网络（即加入神经元）
     fnn.addInputModule(inLayer)
@@ -72,20 +73,28 @@ def dsBuild(data):
     dsTrain,dsTest = ds.splitWithProportion(0.9)
     return dsTrain,dsTest
 
+def classDsBuild(data):
+    DS = ClassificationDataSet(5,nb_classes=5,class_labels=['1', '2', '3','4','5'])
+    for ele in data:
+        DS.appendLinked((ele[0],ele[1],ele[2],ele[3],ele[4]), (ele[5]))
+    dsTrain,dsTest = DS.splitWithProportion(0.9)
+    return dsTrain, dsTest
+
+dsTrain_test,dsTest_test= classDsBuild(data)
+dsTrain_test._convertToOneOfMany(bounds=[0, 1])
+dsTest_test._convertToOneOfMany(bounds=[0, 1])
+
+print dsTrain_test['input'][0]
+
 dsTrain,dsTest = dsBuild(data)
-netModel = netBuild(dsTrain)
+netModel = netBuild(dsTrain_test)
 pred=[]
 really =[]
 
-for i in range(0,len(dsTest['input'])):
-    really.append((dsTest['target'][i]*94+84).round(0))
-    if((netModel.activate((dsTest['input'][i][0], dsTest['input'][i][1],dsTest['input'][i][2],dsTest['input'][i][3],dsTest['input'][i][4]))*94+84).round(0)>0):
-        pred.append((netModel.activate(
-              (dsTest['input'][i][0], dsTest['input'][i][1],dsTest['input'][i][2],dsTest['input'][i][3],dsTest['input'][i][4]))*94+84).round(0))
-    else:
-        pred.append(-1*(netModel.activate(
-             (dsTest['input'][i][0], dsTest['input'][i][1], dsTest['input'][i][2], dsTest['input'][i][3],
-             dsTest['input'][i][4])) * 94 + 84).round(0))
+for i in range(0,len(dsTest_test['input'])):
+    really.append(dsTest_test['target'][i])
+    pred.append(netModel.activate(dsTest_test['input'][i]))
+
 
 
 print really
