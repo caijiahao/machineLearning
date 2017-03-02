@@ -11,7 +11,7 @@ import pandas as pd
 #参数初始化
 filename = 'haichong-test.xlsx'
 data = pd.read_excel(filename,header=None)
-feature = [1,5,6,12]
+feature = [1,2,3,4,5,6,7,8,9,10,11,12]
 label = [13]
 
 x = data[feature].as_matrix()
@@ -20,9 +20,9 @@ y = data[label].as_matrix()
 from sklearn.linear_model import LogisticRegression as LR
 from sklearn.linear_model import RandomizedLogisticRegression as RLR
 
-#rlr = RLR() #建立随机逻辑回归模型，筛选变量
-#rlr.fit(x, y) #训练模型
-#print rlr.get_support() #获取特征筛选结果，也可以通过.scores_方法获取各个特征的分数
+rlr = RLR() #建立随机逻辑回归模型，筛选变量
+rlr.fit(x, y) #训练模型
+print rlr.get_support() #获取特征筛选结果，也可以通过.scores_方法获取各个特征的分数
 
 #print(u'通过随机逻辑回归模型筛选特征结束。')
 #print(u'有效特征为：%s' % ','.join(data.columns[rlr.get_support()]))

@@ -18,6 +18,7 @@ haichong='haichong-test.xlsx'
 outputfile = 'result.xls'
 
 data = pd.read_excel(haichong,header=None)
+data_test = data
 #print data.describe()
 
 #选择我所需要的数据列
@@ -34,6 +35,8 @@ data_std = data.std()
 data = (data - data_mean)/data_std #数据标准化
 data[13]= y
 
+print data_test.corr()[13]
+
 data = data.as_matrix()
 shuffle(data) #随机打乱数据
 
@@ -44,27 +47,31 @@ def netBuild(ds):
 
     # 设立三层，一层输入层（4个神经元，别名为inLayer），一层隐藏层，一层输出层
     inLayer = LinearLayer(5, name='inLayer')
-    hiddenLayer = SigmoidLayer(100, name='hiddenLayer0')
+    hiddenLayer = SigmoidLayer(500, name='hiddenLayer0')
+    hiddenLayer1 = SigmoidLayer(500,name='hiddenLayer1')
     outLayer = LinearLayer(5, name='outLayer')
 
     # 将三层都加入神经网络（即加入神经元）
     fnn.addInputModule(inLayer)
     fnn.addModule(hiddenLayer)
+    fnn.addModule(hiddenLayer1)
     fnn.addOutputModule(outLayer)
 
     # 建立三层之间的连接
     in_to_hidden = FullConnection(inLayer, hiddenLayer)
-    hidden_to_out = FullConnection(hiddenLayer, outLayer)
+    hidden_to_hidden = FullConnection(hiddenLayer,hiddenLayer1)
+    hidden_to_out = FullConnection(hiddenLayer1, outLayer)
 
     # 将连接加入神经网络
     fnn.addConnection(in_to_hidden)
+    fnn.addConnection(hidden_to_hidden)
     fnn.addConnection(hidden_to_out)
 
     # 让神经网络可用
     fnn.sortModules()
 
     print "Trainging"
-    trainer = BackpropTrainer(fnn, ds, verbose=True, learningrate=0.04)
+    trainer = BackpropTrainer(fnn, ds, verbose=True, learningrate=0.01)
     # trainer.train()
     trainer.trainEpochs(epochs=20)
     trainer.trainUntilConvergence(maxEpochs=10000)
@@ -86,12 +93,16 @@ def classDsBuild(data):
     return dsTrain, dsTest
 
 dsTrain_test,dsTest_test= classDsBuild(data)
+
+#将类别转化为5位
 dsTrain_test._convertToOneOfMany(bounds=[0, 1])
 dsTest_test._convertToOneOfMany(bounds=[0, 1])
 
 print dsTrain_test['target']
 
+#划分训练集跟测试集
 dsTrain,dsTest = dsBuild(data)
+#训练神经网络
 netModel = netBuild(dsTrain_test)
 pred=[]
 really =[]
@@ -122,8 +133,6 @@ for i in range(0,len(dsTest_test['input'])):
 
 print really
 print pred
-#print yuanma
-#print calma
 
 
 
