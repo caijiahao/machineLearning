@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54809163-a40b-4fa0-9e5b-a73510ad4730" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测/discdata_processed.xls" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测/discdata_processed.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测/predictdata.xls" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测/predictdata.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别/missing_data_processed.xls" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别/missing_data_processed.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析/zscoreddata.xls" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析/zscoreddata.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong-test-origin.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/data_discretization.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/selectKValue.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nested/bp2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong-test.xlsx" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong-test.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/machineLearning.iml" afterPath="$PROJECT_DIR$/.idea/machineLearning.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong.py" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/logisitic_regression.py" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/logisitic_regression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/利用python进行数据分析/引言/Chapter2.py" afterPath="$PROJECT_DIR$/src/利用python进行数据分析/引言/Chapter2.py" />
     </list>
     <ignored path="machineLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,84 +28,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/machineLearning$statistics_analyze.coverage" NAME="statistics_analyze Coverage Results" MODIFIED="1484211366967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$11_6_cal_errors.coverage" NAME="11-6_cal_errors Coverage Results" MODIFIED="1484723322010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
-    <SUITE FILE_PATH="coverage/machineLearning$huise.coverage" NAME="huise Coverage Results" MODIFIED="1487424564181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
-    <SUITE FILE_PATH="coverage/machineLearning$5_7_arima_test.coverage" NAME="5-7_arima_test Coverage Results" MODIFIED="1487422967792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/ARIMA模块实现代码" />
-    <SUITE FILE_PATH="coverage/machineLearning$10_3_neural_network.coverage" NAME="10-3_neural_network Coverage Results" MODIFIED="1484645118785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别" />
-    <SUITE FILE_PATH="coverage/machineLearning$4_6_principal_component_analyze.coverage" NAME="4-6_principal_component_analyze Coverage Results" MODIFIED="1482740848715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
-    <SUITE FILE_PATH="coverage/machineLearning$find_optmal.coverage" NAME="find_optmal Coverage Results" MODIFIED="1487470293086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
-    <SUITE FILE_PATH="coverage/machineLearning$Advertisements.coverage" NAME="Advertisements Coverage Results" MODIFIED="1481013263932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter5" />
-    <SUITE FILE_PATH="coverage/machineLearning$7_3_zscore_data.coverage" NAME="7-3_zscore_data Coverage Results" MODIFIED="1484291484196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析" />
-    <SUITE FILE_PATH="coverage/machineLearning$3_2_statistics_analyze.coverage" NAME="3-2_statistics_analyze Coverage Results" MODIFIED="1482723125639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据探索" />
     <SUITE FILE_PATH="coverage/machineLearning$stationarity_test.coverage" NAME="stationarity_test Coverage Results" MODIFIED="1484727573755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$lagrange_newton_interp.coverage" NAME="lagrange_newton_interp Coverage Results" MODIFIED="1487672347465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
-    <SUITE FILE_PATH="coverage/machineLearning$pywrap_tensorflow.coverage" NAME="pywrap_tensorflow Coverage Results" MODIFIED="1484198307867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Anaconda2/Lib/site-packages/tensorflow/python" />
-    <SUITE FILE_PATH="coverage/machineLearning$dt_model.coverage" NAME="dt_model Coverage Results" MODIFIED="1484198993859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别" />
+    <SUITE FILE_PATH="coverage/machineLearning$13_1_gaikuo.coverage" NAME="13-1_gaikuo Coverage Results" MODIFIED="1484808549538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
+    <SUITE FILE_PATH="coverage/machineLearning$3_2_statistics_analyze.coverage" NAME="3-2_statistics_analyze Coverage Results" MODIFIED="1482723125639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据探索" />
+    <SUITE FILE_PATH="coverage/machineLearning$cal.coverage" NAME="cal Coverage Results" MODIFIED="1487487330361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
     <SUITE FILE_PATH="coverage/machineLearning$5_2_decision_tree.coverage" NAME="5-2_decision_tree Coverage Results" MODIFIED="1482916008229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/决策树" />
-    <SUITE FILE_PATH="coverage/machineLearning$ga.coverage" NAME="ga Coverage Results" MODIFIED="1479197549192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GA" />
-    <SUITE FILE_PATH="coverage/machineLearning$find_optimal_pq.coverage" NAME="find_optimal_pq Coverage Results" MODIFIED="1484735175631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$Chapter7.coverage" NAME="Chapter7 Coverage Results" MODIFIED="1482298998108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter7" />
-    <SUITE FILE_PATH="coverage/machineLearning$3_1_abnormal_check.coverage" NAME="3-1_abnormal_check Coverage Results" MODIFIED="1484205201545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据探索" />
-    <SUITE FILE_PATH="coverage/machineLearning$whitenoise.coverage" NAME="whitenoise Coverage Results" MODIFIED="1487420026162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$car.coverage" NAME="car Coverage Results" MODIFIED="1484210084190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
+    <SUITE FILE_PATH="coverage/machineLearning$selectKValue.coverage" NAME="selectKValue Coverage Results" MODIFIED="1492677886868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$statistics_analyze.coverage" NAME="statistics_analyze Coverage Results" MODIFIED="1484211366967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
+    <SUITE FILE_PATH="coverage/machineLearning$10_3_neural_network.coverage" NAME="10-3_neural_network Coverage Results" MODIFIED="1484645118785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别" />
+    <SUITE FILE_PATH="coverage/machineLearning$dataFrame.coverage" NAME="dataFrame Coverage Results" MODIFIED="1479615511160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Kaggle泰坦尼克之灾" />
     <SUITE FILE_PATH="coverage/machineLearning$5_6_apriori.coverage" NAME="5-6_apriori Coverage Results" MODIFIED="1483005012118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/Ariori算法" />
-    <SUITE FILE_PATH="coverage/machineLearning$4_4_line_rate_construct.coverage" NAME="4-4_line_rate_construct Coverage Results" MODIFIED="1482739202159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
-    <SUITE FILE_PATH="coverage/machineLearning$Lagrange_interpolation.coverage" NAME="Lagrange_interpolation Coverage Results" MODIFIED="1484193454719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别" />
-    <SUITE FILE_PATH="coverage/machineLearning$5_8_discrete_point_test.coverage" NAME="5-8_discrete_point_test Coverage Results" MODIFIED="1483451355097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/离散点检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$Chapter1.coverage" NAME="Chapter1 Coverage Results" MODIFIED="1480500075794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter1" />
-    <SUITE FILE_PATH="coverage/machineLearning$stationarity.coverage" NAME="stationarity Coverage Results" MODIFIED="1487470270447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
-    <SUITE FILE_PATH="coverage/machineLearning$13_4_1_huise.coverage" NAME="13-4_1-huise Coverage Results" MODIFIED="1484810855400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
-    <SUITE FILE_PATH="coverage/machineLearning$haichong.coverage" NAME="haichong Coverage Results" MODIFIED="1488443516353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
-    <SUITE FILE_PATH="coverage/machineLearning$geneEncoding.coverage" NAME="geneEncoding Coverage Results" MODIFIED="1479194442809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GA" />
-    <SUITE FILE_PATH="coverage/machineLearning$getdata.coverage" NAME="getdata Coverage Results" MODIFIED="1482394891381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter9" />
-    <SUITE FILE_PATH="coverage/machineLearning$Titanic.coverage" NAME="Titanic Coverage Results" MODIFIED="1480056002688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Kaggle泰坦尼克之灾" />
-    <SUITE FILE_PATH="coverage/machineLearning$8_2_apriori_rules.coverage" NAME="8-2_apriori_rules Coverage Results" MODIFIED="1484399266312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/中医证型关联规则代码" />
-    <SUITE FILE_PATH="coverage/machineLearning$10_2_threshold_optimization.coverage" NAME="10-2_threshold_optimization Coverage Results" MODIFIED="1484644259776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别" />
-    <SUITE FILE_PATH="coverage/machineLearning$surronding.coverage" NAME="surronding Coverage Results" MODIFIED="1484642542188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境质量评价" />
+    <SUITE FILE_PATH="coverage/machineLearning$whitenoise.coverage" NAME="whitenoise Coverage Results" MODIFIED="1487420026162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$3_1_abnormal_check.coverage" NAME="3-1_abnormal_check Coverage Results" MODIFIED="1484205201545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据探索" />
+    <SUITE FILE_PATH="coverage/machineLearning$11_1_attribute_transform.coverage" NAME="11-1_attribute_transform Coverage Results" MODIFIED="1484721531941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
+    <SUITE FILE_PATH="coverage/machineLearning$ga.coverage" NAME="ga Coverage Results" MODIFIED="1479197549192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GA" />
+    <SUITE FILE_PATH="coverage/machineLearning$Chapter7.coverage" NAME="Chapter7 Coverage Results" MODIFIED="1482298998108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter7" />
     <SUITE FILE_PATH="coverage/machineLearning$4_2_data_normalization.coverage" NAME="4-2_data_normalization Coverage Results" MODIFIED="1482737502427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
+    <SUITE FILE_PATH="coverage/machineLearning$11_2_stationarity_test.coverage" NAME="11-2_stationarity_test Coverage Results" MODIFIED="1484728358933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
+    <SUITE FILE_PATH="coverage/machineLearning$Chapter2.coverage" NAME="Chapter2 Coverage Results" MODIFIED="1492567045513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/利用python进行数据分析/引言" />
+    <SUITE FILE_PATH="coverage/machineLearning$4_4_line_rate_construct.coverage" NAME="4-4_line_rate_construct Coverage Results" MODIFIED="1482739202159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
+    <SUITE FILE_PATH="coverage/machineLearning$whitenoise_test.coverage" NAME="whitenoise_test Coverage Results" MODIFIED="1484727555007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测" />
+    <SUITE FILE_PATH="coverage/machineLearning$4_5_wave_analyze.coverage" NAME="4-5_wave_analyze Coverage Results" MODIFIED="1482740017482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
+    <SUITE FILE_PATH="coverage/machineLearning$5_4_k_means.coverage" NAME="5-4_k_means Coverage Results" MODIFIED="1483002852597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/K-Means聚类算法" />
+    <SUITE FILE_PATH="coverage/machineLearning$getdata.coverage" NAME="getdata Coverage Results" MODIFIED="1482394891381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter9" />
+    <SUITE FILE_PATH="coverage/machineLearning$find_optmal.coverage" NAME="find_optmal Coverage Results" MODIFIED="1487470293086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$5_8_discrete_point_test.coverage" NAME="5-8_discrete_point_test Coverage Results" MODIFIED="1483451355097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/离散点检测" />
+    <SUITE FILE_PATH="coverage/machineLearning$huise.coverage" NAME="huise Coverage Results" MODIFIED="1487424564181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$lm_model.coverage" NAME="lm_model Coverage Results" MODIFIED="1484196834342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别" />
+    <SUITE FILE_PATH="coverage/machineLearning$analyzeImage.coverage" NAME="analyzeImage Coverage Results" MODIFIED="1484212921861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
+    <SUITE FILE_PATH="coverage/machineLearning$Chapter4.coverage" NAME="Chapter4 Coverage Results" MODIFIED="1480920986850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter4" />
+    <SUITE FILE_PATH="coverage/machineLearning$Chapter8.coverage" NAME="Chapter8 Coverage Results" MODIFIED="1482392536645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter8" />
+    <SUITE FILE_PATH="coverage/machineLearning$3_3_dish_pareto.coverage" NAME="3-3_dish_pareto Coverage Results" MODIFIED="1484211434194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据探索" />
+    <SUITE FILE_PATH="coverage/machineLearning$bp2.coverage" NAME="bp2 Coverage Results" MODIFIED="1492655776663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/nested" />
+    <SUITE FILE_PATH="coverage/machineLearning$find_optimal_pq.coverage" NAME="find_optimal_pq Coverage Results" MODIFIED="1484735175631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测" />
+    <SUITE FILE_PATH="coverage/machineLearning$data_discretization.coverage" NAME="data_discretization Coverage Results" MODIFIED="1492676886577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$Chapter11.coverage" NAME="Chapter11 Coverage Results" MODIFIED="1482492973700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter11" />
+    <SUITE FILE_PATH="coverage/machineLearning$bpnn.coverage" NAME="bpnn Coverage Results" MODIFIED="1492655339929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/nested" />
+    <SUITE FILE_PATH="coverage/machineLearning$pywrap_tensorflow.coverage" NAME="pywrap_tensorflow Coverage Results" MODIFIED="1484198307867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Anaconda2/Lib/site-packages/tensorflow/python" />
+    <SUITE FILE_PATH="coverage/machineLearning$13_2_correlation.coverage" NAME="13-2_correlation Coverage Results" MODIFIED="1484808686631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
+    <SUITE FILE_PATH="coverage/machineLearning$7_1_data_explore.coverage" NAME="7-1_data_explore Coverage Results" MODIFIED="1484290757205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析" />
+    <SUITE FILE_PATH="coverage/machineLearning$principal_component.coverage" NAME="principal_component Coverage Results" MODIFIED="1487508645285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/害虫辨别之神经网络模型" />
+    <SUITE FILE_PATH="coverage/machineLearning$13_3_1_adaptive_lasso.coverage" NAME="13-3_1-adaptive-lasso Coverage Results" MODIFIED="1487415652485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
+    <SUITE FILE_PATH="coverage/machineLearning$svm.coverage" NAME="svm Coverage Results" MODIFIED="1484639603293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/基于水色图像的水质评价" />
+    <SUITE FILE_PATH="coverage/machineLearning$5_7_arima_test.coverage" NAME="5-7_arima_test Coverage Results" MODIFIED="1487422967792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/ARIMA模块实现代码" />
+    <SUITE FILE_PATH="coverage/machineLearning$Chapter3.coverage" NAME="Chapter3 Coverage Results" MODIFIED="1480768673384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter3" />
+    <SUITE FILE_PATH="coverage/machineLearning$10_1_divide_event.coverage" NAME="10-1_divide_event Coverage Results" MODIFIED="1484643856876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别" />
     <SUITE FILE_PATH="coverage/machineLearning$13_5_1_yuce.coverage" NAME="13-5_1-yuce Coverage Results" MODIFIED="1484884552569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
     <SUITE FILE_PATH="coverage/machineLearning$Chapter6.coverage" NAME="Chapter6 Coverage Results" MODIFIED="1482127873754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter6" />
-    <SUITE FILE_PATH="coverage/machineLearning$3_3_dish_pareto.coverage" NAME="3-3_dish_pareto Coverage Results" MODIFIED="1484211434194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据探索" />
-    <SUITE FILE_PATH="coverage/machineLearning$car2.coverage" NAME="car2 Coverage Results" MODIFIED="1484211178038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$analyzeImage.coverage" NAME="analyzeImage Coverage Results" MODIFIED="1484212921861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$arima_model_check.coverage" NAME="arima_model_check Coverage Results" MODIFIED="1484729507161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$test.coverage" NAME="test Coverage Results" MODIFIED="1480064017041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Kaggle泰坦尼克之灾" />
-    <SUITE FILE_PATH="coverage/machineLearning$4_3_data_discretization.coverage" NAME="4-3_data_discretization Coverage Results" MODIFIED="1482738890581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
-    <SUITE FILE_PATH="coverage/machineLearning$4_5_wave_analyze.coverage" NAME="4-5_wave_analyze Coverage Results" MODIFIED="1482740017482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
-    <SUITE FILE_PATH="coverage/machineLearning$whitenoise_test.coverage" NAME="whitenoise_test Coverage Results" MODIFIED="1484727555007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$11_3_whitenoise_test.coverage" NAME="11-3_whitenoise_test Coverage Results" MODIFIED="1484728377742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
-    <SUITE FILE_PATH="coverage/machineLearning$normalization.coverage" NAME="normalization Coverage Results" MODIFIED="1484394139406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$4_1_lagrange_newton_interp.coverage" NAME="4-1_lagrange_newton_interp Coverage Results" MODIFIED="1482737063253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
-    <SUITE FILE_PATH="coverage/machineLearning$Chapter8.coverage" NAME="Chapter8 Coverage Results" MODIFIED="1482392536645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter8" />
-    <SUITE FILE_PATH="coverage/machineLearning$principal_component.coverage" NAME="principal_component Coverage Results" MODIFIED="1487508645285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/害虫辨别之神经网络模型" />
-    <SUITE FILE_PATH="coverage/machineLearning$10_1_divide_event.coverage" NAME="10-1_divide_event Coverage Results" MODIFIED="1484643856876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别" />
-    <SUITE FILE_PATH="coverage/machineLearning$11_1_attribute_transform.coverage" NAME="11-1_attribute_transform Coverage Results" MODIFIED="1484721531941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
-    <SUITE FILE_PATH="coverage/machineLearning$Chapter5.coverage" NAME="Chapter5 Coverage Results" MODIFIED="1481014356569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter5" />
-    <SUITE FILE_PATH="coverage/machineLearning$Chapter2.coverage" NAME="Chapter2 Coverage Results" MODIFIED="1480680119540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter2" />
-    <SUITE FILE_PATH="coverage/machineLearning$lm_model.coverage" NAME="lm_model Coverage Results" MODIFIED="1484196834342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别" />
-    <SUITE FILE_PATH="coverage/machineLearning$7_4_KMeans_cluster.coverage" NAME="7-4_KMeans_cluster Coverage Results" MODIFIED="1484292873190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析" />
-    <SUITE FILE_PATH="coverage/machineLearning$11_5_arima_model_check.coverage" NAME="11-5_arima_model_check Coverage Results" MODIFIED="1484724524140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
     <SUITE FILE_PATH="coverage/machineLearning$correlation_analyze.coverage" NAME="correlation_analyze Coverage Results" MODIFIED="1484725396833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$7_2_data_clean.coverage" NAME="7-2_data_clean Coverage Results" MODIFIED="1484291205986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析" />
-    <SUITE FILE_PATH="coverage/machineLearning$Chapter4.coverage" NAME="Chapter4 Coverage Results" MODIFIED="1480920986850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter4" />
-    <SUITE FILE_PATH="coverage/machineLearning$13_1_gaikuo.coverage" NAME="13-1_gaikuo Coverage Results" MODIFIED="1484808549538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
-    <SUITE FILE_PATH="coverage/machineLearning$svm.coverage" NAME="svm Coverage Results" MODIFIED="1484639603293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/基于水色图像的水质评价" />
-    <SUITE FILE_PATH="coverage/machineLearning$13_2_correlation.coverage" NAME="13-2_correlation Coverage Results" MODIFIED="1484808686631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
-    <SUITE FILE_PATH="coverage/machineLearning$8_1_discretization.coverage" NAME="8-1_discretization Coverage Results" MODIFIED="1484398891352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/中医证型关联规则代码" />
+    <SUITE FILE_PATH="coverage/machineLearning$dt_model.coverage" NAME="dt_model Coverage Results" MODIFIED="1484198993859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别" />
+    <SUITE FILE_PATH="coverage/machineLearning$4_1_lagrange_newton_interp.coverage" NAME="4-1_lagrange_newton_interp Coverage Results" MODIFIED="1482737063253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
+    <SUITE FILE_PATH="coverage/machineLearning$surronding.coverage" NAME="surronding Coverage Results" MODIFIED="1484642542188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境质量评价" />
+    <SUITE FILE_PATH="coverage/machineLearning$11_3_whitenoise_test.coverage" NAME="11-3_whitenoise_test Coverage Results" MODIFIED="1484728377742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
+    <SUITE FILE_PATH="coverage/machineLearning$Lagrange_interpolation.coverage" NAME="Lagrange_interpolation Coverage Results" MODIFIED="1484193454719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别" />
+    <SUITE FILE_PATH="coverage/machineLearning$Titanic.coverage" NAME="Titanic Coverage Results" MODIFIED="1480056002688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Kaggle泰坦尼克之灾" />
+    <SUITE FILE_PATH="coverage/machineLearning$11_6_cal_errors.coverage" NAME="11-6_cal_errors Coverage Results" MODIFIED="1484723322010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
+    <SUITE FILE_PATH="coverage/machineLearning$Advertisements.coverage" NAME="Advertisements Coverage Results" MODIFIED="1481013263932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter5" />
+    <SUITE FILE_PATH="coverage/machineLearning$7_3_zscore_data.coverage" NAME="7-3_zscore_data Coverage Results" MODIFIED="1484291484196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析" />
+    <SUITE FILE_PATH="coverage/machineLearning$7_4_KMeans_cluster.coverage" NAME="7-4_KMeans_cluster Coverage Results" MODIFIED="1484292873190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析" />
+    <SUITE FILE_PATH="coverage/machineLearning$arima_model_check.coverage" NAME="arima_model_check Coverage Results" MODIFIED="1484729507161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测" />
+    <SUITE FILE_PATH="coverage/machineLearning$8_2_apriori_rules.coverage" NAME="8-2_apriori_rules Coverage Results" MODIFIED="1484399266312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/中医证型关联规则代码" />
+    <SUITE FILE_PATH="coverage/machineLearning$4_3_data_discretization.coverage" NAME="4-3_data_discretization Coverage Results" MODIFIED="1482738890581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
     <SUITE FILE_PATH="coverage/machineLearning$5_3_neural_network.coverage" NAME="5-3_neural_network Coverage Results" MODIFIED="1482994330279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/神经网络" />
-    <SUITE FILE_PATH="coverage/machineLearning$dataFrame.coverage" NAME="dataFrame Coverage Results" MODIFIED="1479615511160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Kaggle泰坦尼克之灾" />
-    <SUITE FILE_PATH="coverage/machineLearning$11_2_stationarity_test.coverage" NAME="11-2_stationarity_test Coverage Results" MODIFIED="1484728358933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
-    <SUITE FILE_PATH="coverage/machineLearning$car.coverage" NAME="car Coverage Results" MODIFIED="1484210084190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
-    <SUITE FILE_PATH="coverage/machineLearning$13_3_1_adaptive_lasso.coverage" NAME="13-3_1-adaptive-lasso Coverage Results" MODIFIED="1487415652485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
     <SUITE FILE_PATH="coverage/machineLearning$11_4_find_optimal_pq.coverage" NAME="11-4_find_optimal_pq Coverage Results" MODIFIED="1484729047529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
+    <SUITE FILE_PATH="coverage/machineLearning$8_1_discretization.coverage" NAME="8-1_discretization Coverage Results" MODIFIED="1484398891352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/中医证型关联规则代码" />
+    <SUITE FILE_PATH="coverage/machineLearning$test.coverage" NAME="test Coverage Results" MODIFIED="1480064017041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Kaggle泰坦尼克之灾" />
+    <SUITE FILE_PATH="coverage/machineLearning$11_5_arima_model_check.coverage" NAME="11-5_arima_model_check Coverage Results" MODIFIED="1484724524140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测" />
+    <SUITE FILE_PATH="coverage/machineLearning$7_2_data_clean.coverage" NAME="7-2_data_clean Coverage Results" MODIFIED="1484291205986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析" />
     <SUITE FILE_PATH="coverage/machineLearning$5_1_logistic_regression.coverage" NAME="5-1_logistic_regression Coverage Results" MODIFIED="1487665117126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/逻辑回归" />
-    <SUITE FILE_PATH="coverage/machineLearning$Chapter3.coverage" NAME="Chapter3 Coverage Results" MODIFIED="1480768673384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter3" />
-    <SUITE FILE_PATH="coverage/machineLearning$Chapter11.coverage" NAME="Chapter11 Coverage Results" MODIFIED="1482492973700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter11" />
-    <SUITE FILE_PATH="coverage/machineLearning$logisitic_regression.coverage" NAME="logisitic_regression Coverage Results" MODIFIED="1487929025394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$Chapter5.coverage" NAME="Chapter5 Coverage Results" MODIFIED="1481014356569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter5" />
+    <SUITE FILE_PATH="coverage/machineLearning$logisitic_regression.coverage" NAME="logisitic_regression Coverage Results" MODIFIED="1490619811781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$lagrange_newton_interp.coverage" NAME="lagrange_newton_interp Coverage Results" MODIFIED="1487672347465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$Chapter1.coverage" NAME="Chapter1 Coverage Results" MODIFIED="1480500075794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/LearingDataMiningWithPython/Chapter1" />
+    <SUITE FILE_PATH="coverage/machineLearning$car2.coverage" NAME="car2 Coverage Results" MODIFIED="1484211178038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
+    <SUITE FILE_PATH="coverage/machineLearning$10_2_threshold_optimization.coverage" NAME="10-2_threshold_optimization Coverage Results" MODIFIED="1484644259776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别" />
+    <SUITE FILE_PATH="coverage/machineLearning$4_6_principal_component_analyze.coverage" NAME="4-6_principal_component_analyze Coverage Results" MODIFIED="1482740848715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
     <SUITE FILE_PATH="coverage/machineLearning$3_4_correlation_analyze.coverage" NAME="3-4_correlation_analyze Coverage Results" MODIFIED="1482730080307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据探索" />
-    <SUITE FILE_PATH="coverage/machineLearning$5_4_k_means.coverage" NAME="5-4_k_means Coverage Results" MODIFIED="1483002852597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/K-Means聚类算法" />
-    <SUITE FILE_PATH="coverage/machineLearning$7_1_data_explore.coverage" NAME="7-1_data_explore Coverage Results" MODIFIED="1484290757205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/航空公司客户价值分析" />
-    <SUITE FILE_PATH="coverage/machineLearning$cal.coverage" NAME="cal Coverage Results" MODIFIED="1487487330361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$haichong.coverage" NAME="haichong Coverage Results" MODIFIED="1492693463074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$13_4_1_huise.coverage" NAME="13-4_1-huise Coverage Results" MODIFIED="1484810855400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
+    <SUITE FILE_PATH="coverage/machineLearning$geneEncoding.coverage" NAME="geneEncoding Coverage Results" MODIFIED="1479194442809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GA" />
+    <SUITE FILE_PATH="coverage/machineLearning$normalization.coverage" NAME="normalization Coverage Results" MODIFIED="1484394139406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
+    <SUITE FILE_PATH="coverage/machineLearning$stationarity.coverage" NAME="stationarity Coverage Results" MODIFIED="1487470270447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -117,8 +123,8 @@
       <file leaf-file-name="haichong.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="114">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding>
                 <element signature="e#155#186#0" expanded="true" />
               </folding>
@@ -126,23 +132,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logisitic_regression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/logisitic_regression.py">
+      <file leaf-file-name="data_discretization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/data_discretization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="158">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lagrange_newton_interp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/lagrange_newton_interp.py">
+      <file leaf-file-name="selectKValue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/selectKValue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="149">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
-                <element signature="e#163#197#0" expanded="true" />
+                <element signature="e#15#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,11 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/离散点检测/5-8_discrete_point_test.py" />
-        <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别/Lagrange_interpolation.py" />
-        <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别/lm_model.py" />
-        <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别/dt_model.py" />
-        <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测/car.py" />
         <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测/car2.py" />
         <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测/statistics_analyze.py" />
         <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测/analyzeImage.py" />
@@ -213,6 +214,11 @@
         <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/逻辑回归/5-1_logistic_regression.py" />
         <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/lagrange_newton_interp.py" />
         <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/logisitic_regression.py" />
+        <option value="$PROJECT_DIR$/src/利用python进行数据分析/引言/Chapter2.py" />
+        <option value="$PROJECT_DIR$/src/nested/bpnn.py" />
+        <option value="$PROJECT_DIR$/src/nested/bp2.py" />
+        <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/data_discretization.py" />
+        <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/selectKValue.py" />
         <option value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong.py" />
       </list>
     </option>
@@ -254,7 +260,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,9 +337,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,6 +345,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -350,42 +357,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.haichong">
-    <configuration default="false" name="principal_component" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/害虫辨别之神经网络模型" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="machineLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/害虫辨别之神经网络模型/principal_component.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="lagrange_newton_interp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="machineLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/lagrange_newton_interp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="haichong" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,7 +375,43 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="logisitic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="bpnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/nested" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="machineLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/nested/bpnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bp2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/nested" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="machineLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/nested/bp2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="data_discretization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -417,25 +424,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="machineLearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/logisitic_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/data_discretization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="5-1_logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="selectKValue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/逻辑回归" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="machineLearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/挖掘建模/逻辑回归/5-1_logistic_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/selectKValue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -649,19 +656,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.principal_component" />
-      <item index="1" class="java.lang.String" itemvalue="Python.lagrange_newton_interp" />
-      <item index="2" class="java.lang.String" itemvalue="Python.haichong" />
-      <item index="3" class="java.lang.String" itemvalue="Python.logisitic_regression" />
-      <item index="4" class="java.lang.String" itemvalue="Python.5-1_logistic_regression" />
+      <item index="0" class="java.lang.String" itemvalue="Python.haichong" />
+      <item index="1" class="java.lang.String" itemvalue="Python.bpnn" />
+      <item index="2" class="java.lang.String" itemvalue="Python.bp2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.data_discretization" />
+      <item index="4" class="java.lang.String" itemvalue="Python.selectKValue" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.haichong" />
-        <item index="1" class="java.lang.String" itemvalue="Python.logisitic_regression" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lagrange_newton_interp" />
-        <item index="3" class="java.lang.String" itemvalue="Python.5-1_logistic_regression" />
-        <item index="4" class="java.lang.String" itemvalue="Python.principal_component" />
+        <item index="1" class="java.lang.String" itemvalue="Python.selectKValue" />
+        <item index="2" class="java.lang.String" itemvalue="Python.data_discretization" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bp2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bpnn" />
       </list>
     </recent_temporary>
   </component>
@@ -678,13 +685,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478706907046</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Python数据挖掘入门与时间练习代码（二）">
-      <created>1480599673123</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1480599673123</updated>
     </task>
     <task id="LOCAL-00011" summary="Python数据挖掘入门与时间练习代码（三）">
       <created>1480686667327</created>
@@ -1022,7 +1022,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487753203356</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="东升农场数据分析神经网络改造">
+      <created>1488444597111</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1488444597111</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1038,24 +1045,24 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38326225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20572917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52112675" sideWeight="0.33072916" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2617866" sideWeight="0.4921875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3844189" sideWeight="0.46927083" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49426934" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.595883" sideWeight="0.6692708" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34249473" sideWeight="0.6692708" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47357294" sideWeight="0.48697916" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4727047" sideWeight="0.48697916" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26215646" sideWeight="0.4921875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1089,7 +1096,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用转换器抽取特征最终版本代码以及新添加数据集" />
     <MESSAGE value="使用朴素贝叶斯进行社会媒体挖掘" />
     <MESSAGE value="使用朴素贝叶斯进行社会媒体挖掘（二）" />
     <MESSAGE value="用图挖掘到感兴趣的人（一）" />
@@ -1114,7 +1120,8 @@
     <MESSAGE value="Python数据分析与挖掘实战之害虫识别模型" />
     <MESSAGE value="Python数据分析与挖掘实战之害虫识别模型算法修改增加了测试模块" />
     <MESSAGE value="东升农场数据分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="东升农场数据分析" />
+    <MESSAGE value="东升农场数据分析神经网络改造" />
+    <option name="LAST_COMMIT_MESSAGE" value="东升农场数据分析神经网络改造" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1125,130 +1132,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pandas/core/internals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="3969" column="0" selection-start-line="3969" selection-start-column="0" selection-end-line="3969" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/基于水色图像的水质评价/svm.model">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7312">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别/Lagrange_interpolation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境质量评价/surronding.xls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理/4-1_lagrange_newton_interp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/基于水色图像的水质评价/svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别/10-2_threshold_optimization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测/11-1_attribute_transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测/11-6_cal_errors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/应用系统负载分析与磁盘容量预测/11-5_arima_model_check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测/arima_model_check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测/find_optimal_pq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/软硬件日志事件检测/whitenoise_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型/13-2_correlation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型/13-1_gaikuo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别/10-3_neural_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别/10-1_divide_event.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/电力窃漏电用户自动识别/dt_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="668">
@@ -1383,24 +1271,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理/4-6_principal_component_analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/害虫辨别之神经网络模型/principal_component.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/害虫辨别之神经网络模型/haichong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="126" column="59" selection-start-line="126" selection-start-column="59" selection-end-line="126" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1418,45 +1292,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/lagrange_newton_interp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="e#163#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/logisitic_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/structure/networks/feedforward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/structure/connections/full.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/structure/networks/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/structure/connections/full.py" />
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/structure/networks/network.py" />
     <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/cal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1478,10 +1315,157 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/害虫辨别之神经网络模型/haichong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="134" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/__init__.py" />
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/structure/networks/__init__.py" />
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/tools/functions.py" />
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/structure/modules/sigmoidlayer.py" />
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/tools/shortcuts.py" />
+    <entry file="file://$PROJECT_DIR$/src/RandomForest/randomforests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理/4-3_data_discretization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/logisitic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/lagrange_newton_interp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理/4-6_principal_component_analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nested/bp2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="365" column="38" selection-start-line="365" selection-start-column="38" selection-end-line="365" selection-end-column="38" />
+          <folding>
+            <element signature="e#73#85#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nested/bpnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/利用python进行数据分析/引言/Chapter2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1492567045493" expanded="true" signature="308:342" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/structure/networks/feedforward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pybrain/supervised/trainers/backprop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="24" />
+          <folding>
+            <element signature="e#45#74#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Anaconda2/Lib/site-packages/setuptools-27.2.0-py2.7.egg!/pkg_resources/extern/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Anaconda2/Lib/site-packages/setuptools-27.2.0-py2.7.egg!/pkg_resources/_vendor/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/sklearn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#502#512#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/data_discretization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/selectKValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
             <element signature="e#155#186#0" expanded="true" />
           </folding>

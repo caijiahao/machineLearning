@@ -15,11 +15,11 @@ print open(path).readline()
 #json转换为字典对象
 import json
 records = [json.loads(line) for line in open(path)]
-#print records[0]["tz"]
+print records[0]["tz"]
 
 #统计最常出现的时区
 time_zones = [rec['tz'] for rec in records if 'tz' in rec]
-#print time_zones[:10]
+print time_zones[:10]
 
 #计数
 def get_counts(sequence):
