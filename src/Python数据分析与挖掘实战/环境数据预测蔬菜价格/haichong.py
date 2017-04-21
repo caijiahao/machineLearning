@@ -103,12 +103,16 @@ dsTrain_test,dsTest_test= classDsBuild(data)
 dsTrain_test._convertToOneOfMany(bounds=[0, 1])
 dsTest_test._convertToOneOfMany(bounds=[0, 1])
 
-print dsTrain_test['target']
+#print dsTrain_test['target']
 
 #划分训练集跟测试集
 dsTrain,dsTest = dsBuild(data)
+
 #训练神经网络
 netModel = netBuild(dsTrain_test)
+
+#f1值检验
+
 pred=[]
 really =[]
 yuanma = []
@@ -138,8 +142,13 @@ for i in range(0,len(dsTest_test['input'])):
 
 print predictions
 
-from cm_plot import * #导入自行编写的混淆矩阵可视化函数
-cm_plot(really, predictions).show() #显示混淆矩阵可视化结果
+
+#from sklearn.metrics import f1_score
+#print("F-score: {0:.2f}".format(f1_score(predictions,really)))
+
+
+#from cm_plot import * #导入自行编写的混淆矩阵可视化函数
+#cm_plot(really, predictions).show() #显示混淆矩阵可视化结果
 #注意到Scikit-Learn使用predict方法直接给出预测结果。
 
 
