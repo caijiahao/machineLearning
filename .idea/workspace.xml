@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54809163-a40b-4fa0-9e5b-a73510ad4730" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong-test-origin.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/data_discretization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/selectKValue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nested/bp2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong-test.xlsx" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong-test.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/machineLearning.iml" afterPath="$PROJECT_DIR$/.idea/machineLearning.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong.py" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/logisitic_regression.py" afterPath="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/logisitic_regression.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/利用python进行数据分析/引言/Chapter2.py" afterPath="$PROJECT_DIR$/src/利用python进行数据分析/引言/Chapter2.py" />
     </list>
     <ignored path="machineLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,7 +96,7 @@
     <SUITE FILE_PATH="coverage/machineLearning$10_2_threshold_optimization.coverage" NAME="10-2_threshold_optimization Coverage Results" MODIFIED="1484644259776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/家用电器用户行为分析与时间识别" />
     <SUITE FILE_PATH="coverage/machineLearning$4_6_principal_component_analyze.coverage" NAME="4-6_principal_component_analyze Coverage Results" MODIFIED="1482740848715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据预处理" />
     <SUITE FILE_PATH="coverage/machineLearning$3_4_correlation_analyze.coverage" NAME="3-4_correlation_analyze Coverage Results" MODIFIED="1482730080307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/数据探索" />
-    <SUITE FILE_PATH="coverage/machineLearning$haichong.coverage" NAME="haichong Coverage Results" MODIFIED="1492693463074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
+    <SUITE FILE_PATH="coverage/machineLearning$haichong.coverage" NAME="haichong Coverage Results" MODIFIED="1492773484821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格" />
     <SUITE FILE_PATH="coverage/machineLearning$13_4_1_huise.coverage" NAME="13-4_1-huise Coverage Results" MODIFIED="1484810855400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/财政收入影响因素分析及预测模型" />
     <SUITE FILE_PATH="coverage/machineLearning$geneEncoding.coverage" NAME="geneEncoding Coverage Results" MODIFIED="1479194442809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GA" />
     <SUITE FILE_PATH="coverage/machineLearning$normalization.coverage" NAME="normalization Coverage Results" MODIFIED="1484394139406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python数据分析与挖掘实战/汽车销售行业漏税检测" />
@@ -123,8 +114,8 @@
       <file leaf-file-name="haichong.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="96">
+              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
               <folding>
                 <element signature="e#155#186#0" expanded="true" />
               </folding>
@@ -135,7 +126,7 @@
       <file leaf-file-name="data_discretization.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/data_discretization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="304">
               <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
@@ -145,7 +136,7 @@
       <file leaf-file-name="selectKValue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/selectKValue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
+            <state relative-caret-position="209">
               <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="e#15#33#0" expanded="true" />
@@ -260,9 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,6 +326,9 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +336,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/MongoDBWithPython" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -686,13 +677,6 @@
       <option name="presentableId" value="Default" />
       <updated>1478706907046</updated>
     </task>
-    <task id="LOCAL-00011" summary="Python数据挖掘入门与时间练习代码（三）">
-      <created>1480686667327</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1480686667327</updated>
-    </task>
     <task id="LOCAL-00012" summary="Python数据挖掘入门与时间练习代码（三）">
       <created>1480768808972</created>
       <option name="number" value="00012" />
@@ -1029,7 +1013,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488444597111</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="东升农场数据分析神经网络改造">
+      <created>1492693526807</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1492693526808</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1045,14 +1036,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20572917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52112675" sideWeight="0.33072916" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2617866" sideWeight="0.4921875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3844189" sideWeight="0.46927083" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49426934" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34249473" sideWeight="0.6692708" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3742072" sideWeight="0.6692708" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1063,6 +1053,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2617866" sideWeight="0.4921875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1366,9 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="365" column="38" selection-start-line="365" selection-start-column="38" selection-end-line="365" selection-end-column="38" />
-          <folding>
-            <element signature="e#73#85#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1376,9 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-56">
           <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1386,9 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <marker date="1492567045493" expanded="true" signature="308:342" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1396,7 +1378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,9 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="62" column="24" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="24" />
-          <folding>
-            <element signature="e#45#74#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1414,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,7 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1430,9 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#502#512#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1440,13 +1413,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/data_discretization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="304">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding />
         </state>
@@ -1454,7 +1426,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/selectKValue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
+        <state relative-caret-position="209">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="e#15#33#0" expanded="true" />
@@ -1464,8 +1436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Python数据分析与挖掘实战/环境数据预测蔬菜价格/haichong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        <state relative-caret-position="96">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
           <folding>
             <element signature="e#155#186#0" expanded="true" />
           </folding>

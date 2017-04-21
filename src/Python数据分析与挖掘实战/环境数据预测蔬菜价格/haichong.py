@@ -75,12 +75,12 @@ def netBuild(ds):
     fnn.sortModules()
 
     print "Trainging"
-    trainer = BackpropTrainer(fnn, ds, verbose=True, learningrate=0.01,momentum=0.95)
+    trainer = BackpropTrainer(fnn, ds, verbose=True, learningrate=0.01,momentum=0.95,weightdecay=0.01)
     # trainer.train()
-    #trainer.trainEpochs(epochs=10)
+    trainer.trainEpochs(epochs=20)
     trainer.trainUntilConvergence(maxEpochs=10000)
     print "Finish training"
-    return fnn
+    return trainer
 
 def dsBuild(data):
     ds = SupervisedDataSet(5, 1)
@@ -114,38 +114,37 @@ really =[]
 yuanma = []
 calma = []
 
+predictions = netModel.testOnClassData(dataset=dsTest_test)
+
 for i in range(0,len(dsTest_test['input'])):
 
     origin = dsTest_test['target'][i]
-    prediction = netModel.activate(dsTest_test['input'][i])
-    max = prediction[0]
-    index = 0
+    #prediction = netModel.activate(dsTest_test['input'][i])
+    #max = prediction[0]
+    #index = 0
 
     for j in range(0,4):
         if origin[j] == 1:
             really.append(j)
             break
-    for k in range(1,4):
-        if prediction[k] > max:
-            max = prediction[k]
-            index = k
-    pred.append(index)
+    #for k in range(1,4):
+        #if prediction[k] > max:
+            #max = prediction[k]
+            #index = k
+    #pred.append(index)
 
-    yuanma.append(dsTest_test['target'][i])
-    calma.append(netModel.activate(dsTest_test['input'][i]))
+    #yuanma.append(dsTest_test['target'][i])
+    #calma.append(netModel.activate(dsTest_test['input'][i]))
 
-
-
-print really
-print pred
+print predictions
 
 from cm_plot import * #导入自行编写的混淆矩阵可视化函数
-cm_plot(really, pred).show() #显示混淆矩阵可视化结果
+cm_plot(really, predictions).show() #显示混淆矩阵可视化结果
 #注意到Scikit-Learn使用predict方法直接给出预测结果。
 
 
 from sklearn.metrics import roc_curve #导入ROC曲线函数
-fpr, tpr, thresholds = roc_curve(really, pred, pos_label=1)
+fpr, tpr, thresholds = roc_curve(really, predictions, pos_label=1)
 plt.plot(fpr, tpr, linewidth=2, label = 'ROC of BP', color = 'green') #作出ROC曲线
 plt.xlabel('False Positive Rate') #坐标轴标签
 plt.ylabel('True Positive Rate') #坐标轴标签
