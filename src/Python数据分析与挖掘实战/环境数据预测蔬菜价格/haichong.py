@@ -75,10 +75,10 @@ def netBuild(ds):
     fnn.sortModules()
 
     print "Trainging"
-    trainer = BackpropTrainer(fnn, ds, verbose=True, learningrate=0.01,momentum=0.95,weightdecay=0.01)
+    trainer = BackpropTrainer(fnn, ds, verbose=True, learningrate=0.01,momentum=0.95)
     # trainer.train()
-    trainer.trainEpochs(epochs=20)
-    trainer.trainUntilConvergence(maxEpochs=10000)
+    #trainer.trainEpochs(epochs=20)
+    trainer.trainUntilConvergence(maxEpochs=5000)
     print "Finish training"
     return trainer
 
@@ -110,6 +110,11 @@ dsTrain,dsTest = dsBuild(data)
 
 #训练神经网络
 netModel = netBuild(dsTrain_test)
+
+from sklearn.externals import joblib
+joblib.dump(netModel, "train_model.m")
+netModel =joblib.load("train_model.m")
+
 
 #f1值检验
 
@@ -147,8 +152,8 @@ print predictions
 #print("F-score: {0:.2f}".format(f1_score(predictions,really)))
 
 
-#from cm_plot import * #导入自行编写的混淆矩阵可视化函数
-#cm_plot(really, predictions).show() #显示混淆矩阵可视化结果
+from cm_plot import * #导入自行编写的混淆矩阵可视化函数
+cm_plot(really, predictions).show() #显示混淆矩阵可视化结果
 #注意到Scikit-Learn使用predict方法直接给出预测结果。
 
 
