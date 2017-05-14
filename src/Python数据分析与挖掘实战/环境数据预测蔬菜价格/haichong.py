@@ -14,12 +14,13 @@ from pybrain.supervised.trainers import BackpropTrainer
 from random import shuffle #导入随机函数shuffle，用来打算数据
 
 import pandas as pd
+from pybrain.tools.validation import CrossValidator, ModuleValidator
+
 haichong='haichong-test.xlsx'
 outputfile = 'result.xls'
 
 data = pd.read_excel(haichong,header=None)
 data_test = data
-#print data.describe()
 
 #选择我所需要的数据列
 feature=[1,5,6,10,12]
@@ -27,11 +28,8 @@ y = [13]
 
 y=data[y]
 data = data[feature]
-
 data_mean = data.mean()
-
 data_std = data.std()
-
 data = (data - data_mean)/data_std #数据标准化
 data[13]= y
 
@@ -48,37 +46,26 @@ def netBuild(ds):
     # 设立三层，一层输入层（4个神经元，别名为inLayer），一层隐藏层，一层输出层
     inLayer = LinearLayer(5, name='inLayer')
     hiddenLayer = SigmoidLayer(24, name='hiddenLayer0')
-    #hiddenLayer1 = SigmoidLayer(4,name='hiddenLayer1')
-   # hiddenLayer2 = SigmoidLayer(50, name='hiddenLayer2')
     outLayer = LinearLayer(4, name='outLayer')
 
     # 将五层都加入神经网络（即加入神经元）
     fnn.addInputModule(inLayer)
     fnn.addModule(hiddenLayer)
-    #fnn.addModule(hiddenLayer1)
-   # fnn.addModule(hiddenLayer2)
     fnn.addOutputModule(outLayer)
 
-    # 建立五层之间的连接
+    # 建立三层之间的连接
     in_to_hidden = FullConnection(inLayer, hiddenLayer)
-    #hidden_to_hidden = FullConnection(hiddenLayer,hiddenLayer1)
-    #hidden_to_hidden1 = FullConnection(hiddenLayer1,outLayer)
     hidden_to_out = FullConnection(hiddenLayer, outLayer)
 
     # 将连接加入神经网络
     fnn.addConnection(in_to_hidden)
-    #fnn.addConnection(hidden_to_hidden)
-    #fnn.addConnection(hidden_to_hidden1)
     fnn.addConnection(hidden_to_out)
 
     # 让神经网络可用
     fnn.sortModules()
 
     print "Trainging"
-    trainer = BackpropTrainer(fnn, ds, verbose=True, learningrate=0.01,momentum=0.95)
-    # trainer.train()
-    #trainer.trainEpochs(epochs=20)
-    trainer.trainUntilConvergence(maxEpochs=5000)
+    trainer = BackpropTrainer(fnn, dataset=ds,verbose=True, learningrate=0.01,momentum=0.95)
     print "Finish training"
     return trainer
 
@@ -111,6 +98,13 @@ dsTrain,dsTest = dsBuild(data)
 #训练神经网络
 netModel = netBuild(dsTrain_test)
 
+modval = ModuleValidator()
+netModel.trainEpochs(20)
+netModel.trainUntilConvergence(maxEpochs=1000)
+cv = CrossValidator(netModel, dsTrain_test, n_folds=5, valfunc=modval.MSE )
+print "MSE %f" %( cv.validate() )
+
+
 from sklearn.externals import joblib
 joblib.dump(netModel, "train_model.m")
 netModel =joblib.load("train_model.m")
@@ -128,22 +122,13 @@ predictions = netModel.testOnClassData(dataset=dsTest_test)
 for i in range(0,len(dsTest_test['input'])):
 
     origin = dsTest_test['target'][i]
-    #prediction = netModel.activate(dsTest_test['input'][i])
-    #max = prediction[0]
-    #index = 0
+
 
     for j in range(0,4):
         if origin[j] == 1:
             really.append(j)
             break
-    #for k in range(1,4):
-        #if prediction[k] > max:
-            #max = prediction[k]
-            #index = k
-    #pred.append(index)
 
-    #yuanma.append(dsTest_test['target'][i])
-    #calma.append(netModel.activate(dsTest_test['input'][i]))
 
 print predictions
 
